@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Certifications</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c19ef68c8f.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins', sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(44, 42, 42);
+        }
+        #Certifications{
+            padding: 50px 0;
+
+        }
+        .certifications-list{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 40px;
+            margin-top: 50px;
+        }
+        .certification-names{
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        .certification-names img{
+            width: 100%;
+            border-radius: 10px;
+            display: block;
+            transition: transform 0.5s;
+        }
+        .layer{
+            width: 100% ;
+            height: 0;
+            background: linear-gradient(rgba(255, 255, 255, 0.6), #ff004f);
+            border-radius: 10px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            overflow: hidden; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 40px;
+            text-align: center;
+            font-size: 14px;
+            transition: height 0.5s;
+        }
+        .layer h3{
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .layer p{
+            color: #fff;
+        }
+        .layer a{
+            margin-top: 20px;
+            color: #ff004f;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 60px;
+            background: #fff;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            text-align: center;
+        }
+        .certification-names:hover img{
+            transform: scale(1.1);
+        }
+        .certification-names:hover .layer{
+            height: 100%;
+        }
+        .btn{
+            display: block;
+            margin: 50px auto;
+            width: fit-content;
+            border: 1px solid #ff004f;
+            padding: 14px 50px;
+            border-radius: 6px; 
+            text-decoration: none;
+            color: #fff;
+            transition: background 0.5s;
+
+        }
+        .btn:hover{
+            background: #ff004f;
+        }
+        .Sub-title{
+            font-size: 30px;
+            color: #fff;
+            padding-top: 30px;
+            padding-bottom: 40px;
+            text-align: center;
+            
+        }
+        .badge img{
+            width: 30% ;
+            height: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div id="Certifications">
+        <div class="container">
+            <h1 class="Sub-title">MY Certifications</h1>
+            <div class="certifications-list">
+                <div class="certification-names">
+                    <img src="images/python.png">
+                    <div class="layer">
+                        <h3>Python(Basic)</h3>
+                        <p>Certificate by Hackerrank in Python</p>
+                        <a href="images/python.png" download><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+                <div class="certification-names">
+                    <img src="images/pb.png">
+                    <div class="layer">
+                        <h3>Problem Sloving(Basic)</h3>
+                        <p>Certificate by Hackerrank in Problem Sloving</p>
+                        <a href="images/pb.png" download><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+                <div class="certification-names">
+                    <img src="images/CICSO_PYTHON.png">
+                    <div class="layer">
+                        <h3>Python(Basic)</h3>
+                        <p>Certificate by cisco networking academy in Python</p>
+                        <a href="images/CICSO_PYTHON.png" download><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="certifications-list">
+                <div class="certification-names">
+                    <img src="images/cisco.png">
+                    <div class="layer">
+                        <h3>Networking Essentials</h3>
+                        <p>Certificate by Cisco</p>
+                        <a href="images/cisco.png" download><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+                <div class="certification-names">
+                    <img src="images/Coursera.png">
+                    <div class="layer">
+                        <h3>Google Cloud</h3>
+                        <p>Certificate by Coursera</p>
+                        <a href="images/Coursera.png" download><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+                <div class="certification-names">
+                    <img src="images/java_iit.png">
+                    <div class="layer">
+                        <h3>Java</h3>
+                        <p>Certificate by IIT Bombay</p>
+                        <a href="images/java_iit.png" download><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="certifications-list">
+                <div class="certification-names">
+                    <img src="images/nascom.png">
+                    <div class="layer">
+                        <h3>Data Science</h3>
+                        <p>Certificate by NASSCOM</p>
+                        <a href="images/nascom.png" download><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+                <div class="certification-names">
+                    <img src="images/cisco2.png">
+                    <div class="layer">
+                        <h3>Participation</h3>
+                        <p>Certificate by Cisco</p>
+                        <a href="images/cisco2.png" download><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div>
+                <div class="certification-names">
+                    <img src="images/ndx.png">
+                    <div class="layer">
+                        <h3>Linux UnHatched</h3>
+                        <p>Certificate by NDG Linux UnHatched</p>
+                        <a href="images/ndx" download><i class="fa-regular fa-file-lines"></i></a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div id="Projects">
+        <div class="container">
+            <h1 class="Sub-title">MY Badges</h1>
+            <div class="projects-list">
+                <div class="badge">
+                    <img src="images/ps.png">
+                    <img src="images/java.png">
+                    <img src="images/py.png">
+                </div>
+                <!--<div class="badge">
+                    
+                </div>
+                <div class="badge">
+                    
+                </div> -->
+            </div>
+    
+        </div>
+    </div>
+</body>
+</html>
