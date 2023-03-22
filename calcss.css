@@ -13,7 +13,8 @@ body {
 }
 
 #container {
-	width: 200px;
+	height: 700px;
+	width: 500px;
 	padding: 8px 8px 20px 8px;
 	margin: 20px auto;
 	background-color: #ABABAB;
@@ -28,8 +29,8 @@ body {
 #display {
 	display: block;
 	margin: 15px auto;
-	height: 42px;
-	width: 174px;
+	height: 12%;
+	width: 90%;
 	padding: 0 10px;
 	border-radius: 4px;
 	border-top: 2px solid #C1C1C1;
@@ -46,16 +47,18 @@ body {
 
 .button {
 	display: inline-block;
-	margin: 2px;
-	width: 42px;
-	height: 42px;
-	font-size: 16px;
+	margin: 12px;
+	width: 90px;
+	height: 95px;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
 	font-weight: bold;
 	border-radius: 4px;
 }
 
+
 .mathButtons {
-	margin: 2px 2px 6px 2px;
 	color: #FFF;
 	text-shadow: -1px -1px 0px #44006F;
 	background-color: #434343;
@@ -91,6 +94,7 @@ body {
 
 #clearButton {
 	color: #FFF;
+	width: 207px;
 	text-shadow: -1px -1px 0px #44006F;
 	background-color: #D20000;
 	border-top: 2px solid #FF8484;
@@ -98,4 +102,10 @@ body {
 	border-bottom: 2px solid #800000;
 	border-left: 2px solid #800000;
 	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+}
+
+.equal{
+	background-color: #f15816;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+
 }
