@@ -13,9 +13,9 @@
 <form name="calculator">
 <input id="display" type="text" name="display" readonly>
 
+<input id="clearButton" class="button" type="button" value="AC" onclick="calculator.display.value = ''">
 <input class="button mathButtons" type="button" value="%" onclick="calculator.display.value += '%'">
 <input class="button mathButtons" type="button" value="/" onclick="calculator.display.value += '/'">
-<input id="clearButton" class="button" type="button" value="AC" onclick="calculator.display.value = ''">
 
 <br>
 <input class="button digits" type="button" value="7" onclick="calculator.display.value += '7'">
